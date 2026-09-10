@@ -1,16 +1,12 @@
-table,name,meaning,type,nullable,countable,exemple
-article,id,unique id,int,no,no,214
-article,tittle,tittle,varchar,no,no,the will of oz
+interface,name,meaning,type,nullable,countable,exemple
+article,title,title,varchar,no,no,the will of oz
 article,content,article content,text,no,no,long ago ...
 article,img,thumbnail,varchar,no,no,url
 article,date,date of publication,date,no,no,21-03-2020
 article,status,public / draft,enum,no,no,draft
-article,views,number of viewrs,int,yes,yes,2k
-user,id,unique id,int,no,no,10
-user,name,user name,varchar,no,no,Israa
-user,creationDate,,date,no,no,10-10-2020
-user,profilep,PPicture,varchar,yes,no,url
-user,status,author or viewer,enum,no,no,author
-category,id,unique id,int,no,no,2
+article,read time,reading time,int,yes,yes,5 min
+article,author,article author,varchar,no,no,Israa
+article,profilepic,profile picture,varchar,yes,no,url
 category,name,category name,varchar,no,no,maths
 category,color,hexdec of a collor,varchar,yes(grey),no,#23134
+category,logo,category logo,varchar,yes(pen),no,url
