@@ -2,7 +2,8 @@ interface,name,meaning,type,nullable,countable,exemple
 article,title,title,varchar,no,no,the will of oz
 article,content,article content,text,no,no,long ago ...
 article,img,thumbnail,varchar,no,no,url
-article,date,date of publication,date,no,no,21-03-2020
+article,date_of_creation,date of creation,date,no,no,21-03-2020
+article,date_of_publication,date of publication,date,no,no,21-03-2021
 article,status,public / draft,enum,no,no,draft
 article,read time,reading time,int,yes,yes,5 min
 author,author,article author,varchar,no,no,Israa
