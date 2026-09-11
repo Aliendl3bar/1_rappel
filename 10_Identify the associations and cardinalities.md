@@ -6,7 +6,7 @@ products -- present --commandes
 
 ##  cardinalities:
 client -(0,N)- places -(1,1)- Commnade.
-commande -(1-1)- contiens -(0,N)- products
+commande -(1-N)- contiens -(0,N)- products
 
 
 ## MCD:
