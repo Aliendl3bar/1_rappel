@@ -6,7 +6,8 @@ article,date_of_creation,date of creation,date,no,no,21-03-2020
 article,date_of_publication,date of publication,date,no,no,21-03-2021
 article,status,public / draft,enum,no,no,draft
 article,read time,reading time,int,yes,yes,5 min
-author,author,article author,varchar,no,no,Israa
+author,author,complet name author,varchar,no,no,Israa
+author,author_creation_date,date_of_creation,varchar,no,no,21-13-3
 author,profilepic,profile picture,varchar,yes,no,url
 author,email,email,varchar,no,no,tst@gmail.ocm
 author,password,password,varchar,no,no,2123
