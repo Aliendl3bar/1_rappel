@@ -5,8 +5,8 @@ article,img,thumbnail,varchar,no,no,url
 article,date,date of publication,date,no,no,21-03-2020
 article,status,public / draft,enum,no,no,draft
 article,read time,reading time,int,yes,yes,5 min
-article,author,article author,varchar,no,no,Israa
-article,profilepic,profile picture,varchar,yes,no,url
+author,author,article author,varchar,no,no,Israa
+author,profilepic,profile picture,varchar,yes,no,url
 author,email,email,varchar,no,no,tst@gmail.ocm
 author,password,password,varchar,no,no,2123
 category,name,category name,varchar,no,no,maths
